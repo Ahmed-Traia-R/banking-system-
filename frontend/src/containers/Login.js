@@ -62,7 +62,7 @@ class Login extends Component {
                             onChange={this.handleChange}
                     />
                     </FormGroup>
-                    <Button block bsSize="large" disabled={!this.validateForm()} type="submit">
+                    <Button id="submit" block bsSize="large" disabled={!this.validateForm()} type="submit">
                         Login
                     </Button>
                 </form>
