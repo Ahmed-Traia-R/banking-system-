@@ -4,7 +4,7 @@ const expect = chai.expect;
 const chaiAsPromised = require('chai-as-promised');
 chai.use(chaiAsPromised);
 
-const uri = 'http://10.0.0.101:3000';
+const uri = 'http://localhost:3000';
 
 const browser = new webdriver.Builder()
     .forBrowser('chrome')
