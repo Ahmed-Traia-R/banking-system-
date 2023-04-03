@@ -1,6 +1,14 @@
 .Home {
   padding: 80px 0;
   text-align: center;
+    background-size: contain;
+    background-position: top center;
+    position: relative;
+    z-index: 1;
+    background-color: transparent;
+    animation: text_reveal 3s ease forwards;
+	animation-delay: 1s;
+
 }
 
 .Home h1 {

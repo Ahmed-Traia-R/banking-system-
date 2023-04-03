@@ -1,0 +1,99 @@
+/* Styles for the MyBalance component */
+.my-balance-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.my-balance-input {
+  margin-right: 10px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.my-balance-button {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 3px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+
+.my-balance-button:hover {
+  background-color: #0069d9;
+}
+
+/* Styles for the Users component */
+.users-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.user-card {
+  width: 200px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.user-card:hover {
+  background-color: #f2f2f2;
+}
+
+.user-name {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.user-balance {
+  margin-bottom: 5px;
+}
+
+/* Styles for the TransferForm component */
+.transfer-form-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.transfer-form-input {
+  margin-right: 10px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.transfer-form-button {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 3px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+
+.transfer-form-button:hover {
+  background-color: #0069d9;
+}
+
+/* Styles for the SuccessTransfer and RejectedTransfer components */
+.transfer-message {
+  padding: 10px;
+  border-radius: 3px;
+}
+
+.success-message {
+  background-color: #d4edda;
+  color: #155724;
+}
+
+.rejected-message {
+  background-color: #f8d7da;
+  color: #721c24;
+}

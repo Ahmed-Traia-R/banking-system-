@@ -1,0 +1,33 @@
+.trans {
+    padding: 20px;
+    background-color: #f9f9f9;
+    }
+    
+    .trans-header {
+    margin-bottom: 20px;
+    font-size: 28px;
+    font-weight: bold;
+    color: #333;
+    }
+    
+    .trans-table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px;
+    }
+    
+    .trans-table th, .trans-table td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    }
+    
+    .trans-table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+    color: #333;
+    }
+    
+    .trans-table tbody tr:hover {
+    background-color: #f5f5f5;
+    }

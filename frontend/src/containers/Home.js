@@ -1,16 +1,19 @@
-import React, { Component } from "react";
-import "./Home.css"
+import React from "react";
+import { Jumbotron, Button } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
-class Home extends Component {
-
-    render() {
-        return (
-            <div className="Home">
-                <h1>Welcome</h1>
-                <p>A simple bank page</p>
-            </div>
-        );
-    }  
-}
+const Home = () => {
+  return (
+    <Jumbotron>
+      <h1>Welcome to Our Bank</h1>
+      <p>
+        We are dedicated to providing you with the best banking experience. Our
+        mission is to help you achieve your financial goals and provide you with
+        exceptional service.
+      </p>
+     
+    </Jumbotron>
+  );
+};
 
 export default Home;
